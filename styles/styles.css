@@ -3,7 +3,6 @@ body {
     background-color: #ffffff;
   }
 
-
   .home_background {
     position: relative;
     text-align: center;
@@ -11,9 +10,14 @@ body {
     width: auto;
     height:auto;
     max-width: 110%;
-    max-height: 100%;
     overflow: hidden;
     margin: -2% -5% -5% -2%;
+
+  }
+
+  .home_top {
+    position: relative;
+    vertical-align: top;
 
   }
   .home_title_container {
@@ -49,8 +53,8 @@ body {
     background-color: rgb(51, 51, 51, .8);
     overflow: hidden;
     width: auto;
-    position: absolute;
-    top: 1%;
+    position: fixed;
+    top: 0%;
     left: 25vw;
     font-size: 2.2vw;
   }
@@ -81,4 +85,13 @@ body {
   /* Hide the link that should open and close the topnav on small screens */
   .topnav .icon {
     display: none;
+  }
+
+  .mission_background {
+
+    text-align: center;
+    position: relative;
+    vertical-align: bottom;
+    margin: -2% -2% -5% -15%;
+    overflow: hidden;
   }
