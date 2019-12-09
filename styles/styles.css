@@ -102,7 +102,7 @@ body {
     top: 20%;
     left: 25%;
     size: relative;
-    width: 50%;
+    width: 40%;
     height: 100%;
     font-size: 8vw;
   }
@@ -117,10 +117,9 @@ body {
   }
 
   .mission_text {
-    width: 77.8%;
     text-align: left;
     position: relative;
-    transform: translate(0%, 14.65%);
+    transform: translate(0%, 15%);
     font-size: 40%;
     color: rgb(245, 243, 243);
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
