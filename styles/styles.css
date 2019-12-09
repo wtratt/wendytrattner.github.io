@@ -7,8 +7,8 @@ body {
     position: relative;
     text-align: center;
     color: white;
-    width: auto;
-    height:auto;
+    width: 105%;
+    height: 100%;
     max-width: 110%;
     overflow: hidden;
     margin: -2% -5% -5% -2%;
@@ -18,7 +18,7 @@ body {
   .home_top {
     position: relative;
     vertical-align: top;
-
+    height: 100%;
   }
   .home_title_container {
     position: absolute;
@@ -117,10 +117,10 @@ body {
   }
 
   .mission_text {
-    width: 76.1%;
+    width: 77.8%;
     text-align: left;
     position: relative;
-    transform: translate(0%, 14.35%);
+    transform: translate(0%, 14.65%);
     font-size: 40%;
     color: rgb(245, 243, 243);
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
