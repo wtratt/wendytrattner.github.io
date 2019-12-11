@@ -17,7 +17,7 @@ body {
 
   .home_top {
     position: relative;
-    vertical-align: top;
+    vertical-align: middle;
     height: 100%;
   }
   .home_title_container {
@@ -78,7 +78,7 @@ body {
 
   /* Add an active class to highlight the current page */
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: rgb(137, 28, 151);
     color: white;
   }
 
@@ -125,4 +125,17 @@ body {
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
     overflow-wrap: break-word;
     background: rgba(41, 41, 41, 0.65);
+  }
+
+  .contact_background {
+    position: relative;
+    vertical-align: middle;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-top: .01px;
+    padding-bottom: .01px;
+
   }
