@@ -1,18 +1,17 @@
 body {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgb(51,51,51);
+    margin: 0;
   }
 
   .home_background {
     position: relative;
     text-align: center;
     color: white;
-    width: 105%;
-    height: 100%;
-    max-width: 110%;
+    width: auto;
+    height: auto;
     overflow: hidden;
-    margin: -2% -5% -5% -2%;
-
+    margin: 0;
   }
 
   .home_top {
@@ -91,7 +90,7 @@ body {
 
     text-align: center;
     position: relative;
-    vertical-align: bottom;
+    vertical-align: middle;
     margin: -2% -2% -5% -15%;
     overflow: hidden;
 
@@ -99,10 +98,10 @@ body {
 
   .mission_container{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 25%;
     size: relative;
-    width: 40%;
+    width: 42%;
     height: 100%;
     font-size: 8vw;
   }
@@ -119,7 +118,7 @@ body {
   .mission_text {
     text-align: left;
     position: relative;
-    transform: translate(0%, 15%);
+    transform: translate(0%, 17%);
     font-size: 40%;
     color: rgb(245, 243, 243);
     text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
@@ -129,13 +128,77 @@ body {
 
   .contact_background {
     position: relative;
-    vertical-align: middle;
+    vertical-align: bottom;
     height: 100%;
     text-align: center;
     font-size: 30px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    padding-top: .01px;
-    padding-bottom: .01px;
+    color: rgb(226, 226, 226);
+    background-color: rgb(51, 51, 51);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    margin-bottom: 1vw;
+  }
 
+  .contact {
+    position: relative;
+    position: left;
+    display: inline-block;
+    font-size: 2vw;
+    margin-right:3vw;
+  }
+
+
+  .social_media {
+    position: relative;
+    display:inline-block;
+    position: right;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(51,51,51);
+    padding-top: 1vw;
+    margin-right: 2vw;
+  }
+
+  /* Style all font awesome icons */
+  .fa {
+    padding: 20px;
+    font-size: 23px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  /* Set a specific color for each brand */
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  /* Linkedin */
+  .fa-linkedin {
+    background: #55ACEE;
+    color: white;
+  }
+  /* Instagram */
+  .fa-instagram {
+    background: rgb(110, 0, 161);
+    color: white;
+  }
+  /* Spotify */
+  .fa-spotify {
+    background: rgb(67, 190, 63);
+    color: white;
+  }
+  /* Github */
+  .fa-github {
+    background: rgb(0, 0, 0);
+    color: white;
   }
