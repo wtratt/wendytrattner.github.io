@@ -10,8 +10,8 @@
   <body>
     </div>
     <!-- Top picture and overlapping text + navbar -->
-    <div class="home_background">
-            <img src="pics/blue_rose.jpg" style="width:100%;">
+    <div class="contact_background">
+            <img src="pics/blue_rose.jpg">
             <!-- Navigation -->
             <div class="topnav" id="myTopnav">
                     <a href="index.html">Home</a>
@@ -24,9 +24,22 @@
                         <i class="fa fa-bars"></i>
                     </a>
             </div>
-            <!-- Adding the "Hi, I'm Wendy" -->
-            <div class="home_title_container">
-                <div class="home_page_pre_title"> Hi, </div>
-                <div class="home_page_title">I'm Wendy</div>
+            <!-- Adding contact form -->
+            <div class="contact_form">
+              <form action="action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="inquiry_type">Inquiry Type</label>
+                <select id="inquiry_type" name="inquiry_type">
+                  <option value="personal">Personal</option>
+                  <option value="professional">Professional</option>
+                  <option value="other">Other</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
             </div>
     </div>
