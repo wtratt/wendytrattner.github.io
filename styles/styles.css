@@ -320,7 +320,7 @@ body {
     position: relative;
     text-align: center;
     color: rgb(255, 255, 255);
-    width: 100vw;
+    width: auto;
     height: 100vh;
     overflow: hidden;
     margin: 0;
@@ -329,13 +329,14 @@ body {
 
   .poems {
     position: absolute;
-    top: 20%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%,0%);
+    transform: translate(-50%,-45%);
     word-spacing: auto;
-    font-size: 2vw;
-    line-height: auto;
+    font-size: 1.7vw;
+    line-height: 2.1vw;
     white-space: nowrap;
+    font-family: fantasy;
   }
 
       /* Style the links to poems */
