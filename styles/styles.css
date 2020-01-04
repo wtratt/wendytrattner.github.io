@@ -12,6 +12,7 @@ body {
     height: auto;
     overflow: hidden;
     margin: 0;
+    vertical-align:top;
   }
 
   .home_top {
@@ -54,38 +55,39 @@ body {
     width: auto;
     position: fixed;
     top: 0%;
-    left: 25vw;
+    left: 50%;
+    transform: translate(-50%,0%);
     font-size: 2.2vw;
     z-index: 100;
   }
 
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 1vw 1.2vw;
-    text-decoration: none;
-    font-size: 100%;
-  }
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 1vw 1.2vw;
+        text-decoration: none;
+        font-size: 100%;
+      }
 
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
 
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: rgb(137, 28, 151);
-    color: white;
-  }
+      /* Add an active class to highlight the current page */
+      .topnav a.active {
+        background-color: rgb(137, 28, 151);
+        color: white;
+      }
 
-  /* Hide the link that should open and close the topnav on small screens */
-  .topnav .icon {
-    display: none;
-  }
+      /* Hide the link that should open and close the topnav on small screens */
+      .topnav .icon {
+        display: none;
+      }
 
   .mission_background {
 
@@ -175,37 +177,37 @@ body {
     border-radius: 50%;
   }
 
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
+      /* Add a hover effect if you want */
+      .fa:hover {
+        opacity: 0.7;
+      }
 
-  /* Set a specific color for each brand */
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  /* Linkedin */
-  .fa-linkedin {
-    background: #55ACEE;
-    color: white;
-  }
-  /* Instagram */
-  .fa-instagram {
-    background: rgb(110, 0, 161);
-    color: white;
-  }
-  /* Spotify */
-  .fa-spotify {
-    background: rgb(67, 190, 63);
-    color: white;
-  }
-  /* Github */
-  .fa-github {
-    background: rgb(0, 0, 0);
-    color: white;
-  }
+      /* Set a specific color for each brand */
+      /* Facebook */
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+      /* Linkedin */
+      .fa-linkedin {
+        background: #55ACEE;
+        color: white;
+      }
+      /* Instagram */
+      .fa-instagram {
+        background: rgb(110, 0, 161);
+        color: white;
+      }
+      /* Spotify */
+      .fa-spotify {
+        background: rgb(67, 190, 63);
+        color: white;
+      }
+      /* Github */
+      .fa-github {
+        background: rgb(0, 0, 0);
+        color: white;
+      }
 
   .contact_background {
     position: absolute;
@@ -269,47 +271,80 @@ body {
     font-size: 9vw;
   }
 
-    .about_page_head {
-      position: absolute;
-      transform: translate(10%, 60%);
-      font-size: 69%;
-      color: rgb(255, 255, 255);
-      text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
-      overflow-wrap: break-word;
-    }
+  .about_page_head {
+    position: absolute;
+    transform: translate(10%, 60%);
+    font-size: 69%;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
+    overflow-wrap: break-word;
+  }
 
-    .about_story_title {
-      position: relative;
-      vertical-align: bottom;
-      size: relative;
-      width: auto;
-      height: auto;
-      font-size: 5vw;
-      color: rgb(255, 255, 255);
-      text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
-      overflow-wrap: break-word;
-      text-align: middle;
-      margin-top: -.5%;
-      padding-top: 5%;
-      padding-bottom: 3%;
-      background: rgb(67, 73, 78)
-    }
+  .about_story_title {
+    position: relative;
+    vertical-align: bottom;
+    size: relative;
+    width: auto;
+    height: auto;
+    font-size: 5vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
+    overflow-wrap: break-word;
+    text-align: middle;
+    margin-top: -.5%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background: rgb(67, 73, 78)
+  }
 
-    .about_story_container {
-      position: relative;
-      vertical-align: bottom;
-      size: relative;
-      width: auto;
-      height: auto;
-      font-size: 18pt;
-      color: rgb(207, 207, 207);
-      text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
-      overflow-wrap: break-word;
-      text-align: left;
-      margin-left: 16%;
-      margin-right: 16%;
-      margin-bottom: 5%;
-      text-indent: 8%;
-      padding-top: 2%;
-      padding-bottom: 2%;
-    }
+  .about_story_container {
+    position: relative;
+    vertical-align: bottom;
+    size: relative;
+    width: auto;
+    height: auto;
+    font-size: 18pt;
+    color: rgb(207, 207, 207);
+    text-shadow: 3px 3px 2px rgba(41, 41, 41, 0.4);
+    overflow-wrap: break-word;
+    text-align: left;
+    margin-left: 16%;
+    margin-right: 16%;
+    margin-bottom: 5%;
+    text-indent: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .poem_background {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background:rgb(51, 51, 51)
+  }
+
+  .poems {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    word-spacing: auto;
+    font-size: 2vw;
+    line-height: auto;
+    white-space: nowrap;
+  }
+
+      /* Style the links to poems */
+      .poems a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+
+      /* Change the color of links on hover */
+      .poems a:hover {
+        color:rgb(137, 28, 151);
+      }
