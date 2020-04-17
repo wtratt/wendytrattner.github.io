@@ -65,7 +65,7 @@ body {
     top: 0%;
     left: 50%;
     transform: translate(-50%,0%);
-    font-size: 2.2vw;
+    font-size: 14pt;
     z-index: 100;
   }
 
@@ -111,16 +111,12 @@ body {
     position: absolute;
     top: 15%;
     left: 25%;
-    size: relative;
-    width: 42%;
-    height: 100%;
-    font-size: 8vw;
   }
 
   .mission_title {
     position: absolute;
     transform: translate(0%, 0%);
-    font-size: 100%;
+    font-size: 50pt;
     color: var(--light-grey-text);
     text-shadow: var(--text-shadow);
     background: rgba(41, 41, 41, 0.65);
@@ -132,23 +128,22 @@ body {
     text-align: left;
     position: relative;
     transform: translate(0%, 47%);
-    font-size: 40%;
+    font-size: 20pt;
     color: rgb(245, 243, 243);
     text-shadow: var(--text-shadow);;
     overflow-wrap: break-word;
-    background: rgba(41, 41, 41, 0.65);
+    background: rgba(41, 41, 41, 0.788);
   }
 
   .home_contact_background {
     position: relative;
     vertical-align: bottom;
-    height: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20pt;
     color: rgb(226, 226, 226);
     background-color: rgb(51, 51, 51);
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     overflow: hidden;
     margin-bottom: 1vw;
   }
@@ -157,7 +152,7 @@ body {
     position: relative;
     position: left;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 14pt;
     margin-right:3vw;
     z-index: 100;
   }
