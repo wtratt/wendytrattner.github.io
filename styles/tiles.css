@@ -1,0 +1,49 @@
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+  .column {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 20px;
+    margin: 5px;
+    margin-top: 10px;
+    text-align: center;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: content-box;
+    vertical-align: middle;
+    justify-content: center;
+    display: inline-block;
+  }
+
+  @media screen and (max-width: 500px) {
+    .column-art {
+      width: 100%;
+    }
+  }
+
+
+  img {
+    height: 98%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .caption {
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }

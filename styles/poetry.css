@@ -1,0 +1,22 @@
+
+  .poems {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    margin-top: 10px;
+    word-spacing: auto;
+    font-size: 12pt;
+    font-family: fantasy;
+  }
+
+      /* Style the links to poems */
+      .poems a {
+        color: black;
+        text-decoration: none;
+      }
+
+      /* Change the color of links on hover */
+      .poems a:hover {
+        color:var(--light-grey-text);
+      }

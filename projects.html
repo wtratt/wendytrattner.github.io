@@ -2,75 +2,140 @@
 <html>
   <head>
     <title >Wendy Trattner</title>
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/all.css" />
+    <link rel="stylesheet" href="styles/tiles.css" />
     <script async src="./javascript/index.js"></script>
     <link rel="icon" href="pics/monarch.jpeg" type="image/gif">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
-    </div>
-    <!-- Top picture and overlapping text + navbar -->
-    <div class="home_background">
-            <img src="pics/double_rainbow.jpeg" style="width:100%;">
-            <!-- Navigation -->
-            <div class="topnav" id="myTopnav">
-                    <a href="/">Home</a>
-                    <a href="about">About</a>
-                    <a href="poetry">Poetry</a>
-                    <a href="art">Art</a>
-                    <a href="projects" class="active">Projects</a>
-                    <a href="contact">Contact</a>
-                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </a>
+  <body>
+         <!-- Navbar -->
+        <nav class="stroke">
+            <ul>
+              <li><a href="/">ART</a></li>
+              <li><a href="poetry">POETRY</a></li>
+              <li><a href="projects" style="color:rgb(54, 54, 54)">PROJECTS</a></li>
+              <li><a href="docs/Wendy_Trattner_Resume.pdf">R&Eacute;SUM&Eacute;</a></li>
+              <li><a href="about">ABOUT</a></li>
+              <li><a href="contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+         <!-- Project Page Content -->
+         <div class="page">
+
+             <!-- 2020/Current -->
+             <div class="row">
+                    <div class="column">
+                        <a href="https://wtratt.github.io/doggiedays/">
+                            <div class="caption">Dog Walking Website (for web practice + fun!)</div>
+                            <img src="pics/doggie_days.png">
+                        </a>
+                    </div>
+                    <div class="column">
+                            <div class="caption">This website: very much a work in progress...</div>
+                            <img src="pics/web_code.png">
+                    </div>
+                    <div class="column">
+                        <a href="https://stanza-poetry.herokuapp.com/">
+                            <div class="caption">Computational Poetry Generator</div>
+                            <img src="pics/stanza.png">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.csail.mit.edu/news/robots-can-sort-recycling">
+                            <div class="caption">CSAIL Distributed Robotics Lab </br>Soft Robotic Gripper (for applications in sorting recycling and more!)</div>
+                            <img src="pics/gripper3.jpeg">
+                        </a>
+                    </div>
             </div>
-            <!-- Adding the "Hi, I'm Wendy" -->
-            <div class="home_title_container">
-                <div class="home_page_pre_title" style="text-align:right;"> <br/><br/><br/> Wayqecha Biological <br/>
-                 Station, Per&uacute;<br/>
-                August 2018
-                </div>
+
+            <!-- 2019 -->
+            <div class="row">
+                    <div class="column">
+                        <a href="">
+                            <div class="caption">Yo-Yos! 2.008 Design and Manufacturing II</div>
+                            <img src="pics/dis_yoyo.jpg">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="">
+                            <div class="caption">Level 5 – Lyft Autonomous Division</div>
+                            <img src="pics/lyft.jpg">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="">
+                            <div class="caption">2.007 Design and Manufacturing I</div>
+                            <img src="pics/robot_downey_jr.jpg">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="">
+                            <div class="caption">2.004 Dynamics and Control II Segway Robot</div>
+                            <img src="pics/segway.jpg">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="">
+                            <div class="caption">Truck and Flashlight made with lathe/mill/CAD/CAM/CNC</div>
+                            <img src="pics/truck.jpg">
+                        </a>
+                    </div>
             </div>
-    </div>
 
-    <!-- PROJECTS -->
+            <!-- 2018 -->
+            <div class="row">
+                    <div class="column">
+                            <div class="caption">Solar Car Team, Mechanical &
+                                <a href="docs/flux_crush_zone.docx">Aero</a> Subteams, </br> 2018 American Solar Challenge
+                            </div>
+                            <a href="https://thetech.com/2018/09/05/sevt-american-solar-challenge">
+                                <img src="pics/asc.jpeg">
+                            </a>
+                    </div>
+                    <div class="column">
+                        <div class="caption">BluDart Solar Powered Drone </br>
+                            <a href="docs/bludartI.pdf">solar panel pics</a> and white paper, written by me
+                        </div>
+                        <a href="docs/bludart_wpaper.pdf">
+                            <img src="pics/bludart.jpg">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="docs/usannio_report.pdf">
+                            <div class="caption">Gravitational Wave Detector Physics Externship, Pinto Lab @UniSannio, BN, Italy</div>
+                            <img src="pics/pinto_lab.jpg">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="docs/usannio_report.pdf">
+                            <div class="caption">User centered design: Breast-pump case for working/traveling mother</div>
+                            <img src="pics/breast_pump.jpeg">
+                        </a>
+                    </div>
+            </div>
 
-    <!-- 2020/Current -->
-    <div class="about_story_title" style="background-color: rgb(51,51,51);">2020/Current Projects</div>
-    <div class="projects_flex_container">
-      <a href="https://wtratt.github.io/doggiedays/" class="project_box" style="background-image:url('pics/doggie_days.png');">Dog Walking Website (for web practice + fun!)</a>
-      <div class="project_box" style="background:grey;">This website: very much a work in progress...</div>
-      <a href="https://stanza-poetry.herokuapp.com/" class="project_box" style="background-image:url('pics/stanza.png');">6.148 Web.Lab Semi-Finalist</a>
-    </div>
-    <div class="projects_flex_container">
-      <a href="https://www.csail.mit.edu/news/robots-can-sort-recycling" class="project_box" style="background-image:url('pics/gripper2.jpeg');">CSAIL Distributed Robotics Lab - Soft Robotic Gripper (for applications in sorting recycling and more!)</a>
-    </div>
+            <!-- 2017 + Pre-MIT -->
+            <div class="row">
+                    <div class="column">
+                        <a href="https://www.nature.com/articles/nprot.2017.136">
+                            <div class="caption">Summer 2016 and 2017: Koch Institute for Integrative Cancer Research, Yilmaz Lab</div>
+                            <img src="pics/pipette.jpg">
+                        </a>
+                    </div>
+            </div>
 
-    <!-- 2019 -->
-    <div class="about_story_title" style="background-color: rgb(51,51,51);">2019</div>
-    <div class="projects_flex_container">
-      <div class="project_box" style="background-image:url('pics/dis_yoyo.jpg');">Yo-Yos! 2.008 Design and Manufacturing II</div>
-      <div class="project_box" style="background-image:url('pics/lyft.jpg');">Level 5 – Lyft Autonomous Division</div>
-      <div class="project_box" style="background-image:url('pics/robot_downey_jr.jpg');">2.007 Design and Manufacturing I</div>
-    </div>
-    <div class="projects_flex_container">
-      <div class="project_box" style="background-image:url('pics/segway.jpg');">2.004 Dynamics and Control II -Levitating magnet, gimble, Segway Robot</div>
-      <div class="project_box" style="background-image:url('pics/truck.jpg');">Intro classes on lathe/mill/CAD/CAM/CNC, Truck and Flashlight</div>
-    </div>
+         <!-- Social Media -->
+         <!-- <div class="social_media">
+            <a href="https://www.facebook.com/wendytratt" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/wtratt/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/wtratt/" class="fa fa-instagram"></a>
+            <a href="https://open.spotify.com/user/1237954223" class="fa fa-spotify"></a>
+            <a href="https://github.com/wtratt/wtratt.github.io" class="fa fa-github"></a>
+        </div> -->
 
-    <!-- 2018 -->
-    <div class="about_story_title" style="background-color: rgb(51,51,51);">2018</div>
-    <div class="projects_flex_container">
-      <div class="project_box" style="background-image:url('pics/flux.jpg');">Solar Car Team, 3D Solidworks Roll Cage design, ASC, crush zone/testing, etc</div>
-      <div class="project_box" style="background-image:url('pics/bludart.jpg');">Summer 2018-BluDart Solar Powered Drone (white paper, written by me)</div>
-    </div>
-    <div class="projects_flex_container">
-      <div class="project_box" style="background-image:url('pics/pinto_lab.jpg');">January 2018 (Pinto Lab @UniSannio, BN, Italy)</div>
-      <div class="project_box" style="background-image:url('pics/breast_pump.jpeg');">2.00 User centered design class, Breast-pump case for working/traveling mother</div>
-    </div>
+    </body>
 
-    <!-- 2017 + Pre-MIT -->
-    <div class="about_story_title" style="background-color: rgb(51,51,51);">2017 and Pre-MIT</div>
-    <div class="projects_flex_container">
-      <div class="project_box" style="background-image:url('pics/pipette.jpg');">Summer 2016 and 2017: Koch Institute for Integrative Cancer Research, Yilmaz Lab</div>
-    </div>
+

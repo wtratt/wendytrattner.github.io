@@ -2,7 +2,8 @@
 <html>
   <head>
     <title >Wendy Trattner</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/all.css" />
+    <link rel="stylesheet" href="styles/tiles.css" />
     <script async src="./javascript/index.js"></script>
     <!-- Add website icon in tab -->
     <link rel="icon" href="pics/monarch.jpeg" type="image/gif">
@@ -11,67 +12,113 @@
   </head>
 
   <body>
-    </div>
-    <div class="home_background">
+        <!-- Navbar -->
+        <nav class="stroke">
+            <ul>
+              <li><a href="/" style="color:rgb(54, 54, 54)">ART</a></li>
+              <li><a href="poetry">POETRY</a></li>
+              <li><a href="projects">PROJECTS</a></li>
+              <li><a href="docs/Wendy_Trattner_Resume.pdf">R&Eacute;SUM&Eacute;</a></li>
+              <li><a href="about">ABOUT</a></li>
+              <li><a href="contact">CONTACT</a></li>
+            </ul>
+        </nav>
 
-        <!-- Top picture and overlapping text + navbar -->
-        <div class="home_top">
-                <img src="pics/wendy2.jpg" style="width:100%;">
-                <!-- Navigation -->
-                <div class="topnav" id="myTopnav">
-                        <a href="/" class="active">Home</a>
-                        <a href="about">About</a>
-                        <a href="poetry">Poetry</a>
-                        <a href="art">Art</a>
-                        <a href="projects">Projects</a>
-                        <a href="contact">Contact</a>
-                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                            <i class="fa fa-bars"></i>
-                        </a>
-                </div>
 
-                <!-- Adding the "Hi, I'm Wendy" -->
-                <div class="home_title_container">
-                    <div class="home_page_pre_title"> Hi, </div>
-                    <div class="home_page_title">I'm Wendy</div>
-                </div>
-
+        <!-- Art Page Content -->
+        <div class="page">
+            <div class="row">
+                    <div class="column">
+                            <img src="pics/rocketbird.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/snow_pines.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/bluejay.jpeg">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="column">
+                            <img src="pics/misty_forest.jpeg">
+                    </div>
+                    <div class="column">
+                        <img src="pics/monarch.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/snow_guy.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/stone_harbor.jpeg">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="column">
+                            <img src="pics/rose1.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/abstract_window.jpeg" transform:rotate(90deg);">
+                    </div>
+                    <div class="column">
+                            <img src="pics/two_trees.jpeg">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="column">
+                            <img src="pics/palm_sunset.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/moon_lovers.jpeg" >
+                    </div>
+                    <div class="column">
+                            <img src="pics/water_drop_rose.jpg">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="column">
+                            <img src="pics/robin.JPG">
+                    </div>
+                    <div class="column">
+                            <img src="pics/fall_forest.jpeg">
+                    </div>
+                    <div class="column">
+                        <img src="pics/winter_cardinal.jpg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/abstract_heart.jpg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/pine.jpg">
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="column">
+                            <img src="pics/rose2.jpeg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/sunflower.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="pics/catherine.jpg">
+                    </div>
+                    <div class="column">
+                            <img src="pics/zebrafish.jpg">
+                    </div>
+                    <div class="column">
+                        <img src="pics/misty_moonlight.jpg">
+                    </div>
+            </div>
         </div>
 
-        <!-- Home Page Mission -->
-        <div class="mission_background">
-          <img src="pics/venice.jpeg" style="width:100%;">
-          <div class="mission_container">
-            <div class="mission_title"> The Lowdown </div>
-            <div class="mission_text">
-              <p>I'm a painter, poet, rock climber, mechanical engineer, <br>robot enthusiast, and
-                passionate advocate for <br>clean energy and sustainability. </p>
-              <p>My mission is to improve the outlook for humanity - <br>one action, project, or venture
-                at a time. <br>You can read more about me and my background
-                <a href="about.html" style="color:rgb(165, 165, 165);">here</a>. </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Home Page Bottom Bar -->
-        <div class="home_contact_background">
-            <div class = "home_contact_info">
-              <a href="contact.html" style="color:rgb(212, 212, 212);"><b>Contact</b></a>: wtratt@mit.edu &emsp;
-              <a href="docs/Wendy_Trattner_Resume.pdf" style="color:rgb(212, 212, 212);"><b>Resume</b></a>
-              &emsp; <b>Follow:</b>
-            </div>
+        <!-- Social Media -->
+        <!-- <div class="social_media">
+            <a href="https://www.facebook.com/wendytratt" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/wtratt/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/wtratt/" class="fa fa-instagram"></a>
+            <a href="https://open.spotify.com/user/1237954223" class="fa fa-spotify"></a>
+            <a href="https://github.com/wtratt/wtratt.github.io" class="fa fa-github"></a>
+        </div> -->
 
-            <!-- Social Media -->
-            <div class="social_media">
-              <a href="https://www.facebook.com/wendytratt" class="fa fa-facebook"></a>
-              <a href="https://www.linkedin.com/in/wtratt/" class="fa fa-linkedin"></a>
-              <a href="https://www.instagram.com/wtratt/" class="fa fa-instagram"></a>
-              <a href="https://open.spotify.com/user/1237954223" class="fa fa-spotify"></a>
-              <a href="https://github.com/wtratt/wtratt.github.io" class="fa fa-github"></a>
-            </div>
-        </div>
-    </div>
+</body>
 
-
-
-    <!-- Test comment2 -->
