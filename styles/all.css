@@ -16,8 +16,29 @@
     }
 
 
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .name-logo {
+    flex-grow: 1;
+    padding: 10px;
+    text-align: center;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 15pt;
+    text-decoration: none;
+  }
+
+  .name-logo a {
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+  }
+
   nav {
-    width: 80%;
+    flex-grow: 5;
     margin: 0 auto;
   }
   nav ul {
@@ -88,6 +109,7 @@
     -moz-animation: fill 1s forwards;
     opacity: 1;
   }
+
 
 
   .social_media {
