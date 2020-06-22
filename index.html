@@ -3,7 +3,7 @@
   <head>
     <title >Wendy Trattner</title>
     <link rel="stylesheet" href="styles/all.css" />
-    <link rel="stylesheet" href="styles/tiles.css" />
+    <link rel="stylesheet" href="styles/home.css" />
     <script async src="./javascript/index.js"></script>
     <!-- Add website icon in tab -->
     <link rel="icon" href="pics/monarch.jpeg" type="image/gif">
@@ -12,119 +12,61 @@
   </head>
 
   <body>
-        <!-- Navbar -->
-        <div class="nav-container">
-                <div class="name-logo"> <a href="/">WENDY TRATTNER</a></div>
-                <nav class="stroke">
-                <ul>
-                        <li><a href="/" style="color:rgb(54, 54, 54)">ART</a></li>
-                        <li><a href="poetry">POETRY</a></li>
-                        <li><a href="projects">PROJECTS</a></li>
-                        <li><a href="docs/Wendy_Trattner_Resume.pdf">R&Eacute;SUM&Eacute;</a></li>
-                        <li><a href="about">ABOUT</a></li>
-                        <li><a href="contact">CONTACT</a></li>
-                </ul>
-                </nav>
+        <div class="flex-container">
+                <!-- Home About & Contact Section -->
+                <div class="left-panel">
+                        <img src='pics/wendy1.jpg' class="bio-img" style="margin-bottom:-10px"/>
+
+                        <!-- Bio -->
+                        <div class="bio">
+                                <h3 style="margin-top: -25px; margin-bottom: -10px;">Hi, I'm Wendy Trattner.</h3>
+                                <p style="font-size:11pt;">mechanical engineer |
+                                        sustainability and cleantech enthusiast
+
+                                        <!-- I'm currently an engineer at Embark, writer for MIT ESI,
+                                        and 2020 Interact Fellow. -->
+                                </p>
+
+                                <!-- Contact -->
+                                <div class="contact-container">
+                                        <!-- Social Media -->
+                                        <div class="social_media">
+                                                <a class="fa fa-envelope" href="mailto:wtratt@mit.edu"></a>
+                                                <a href="https://www.facebook.com/wendytratt" class="fa fa-facebook"></a>
+                                                <a href="https://twitter.com/SaveTheEarthYo" class="fa fa-twitter"></a>
+                                                <!-- <a href="https://www.instagram.com/wtratt/" class="fa fa-instagram"></a> -->
+                                                <a href="https://www.linkedin.com/in/wtratt/" class="fa fa-linkedin"></a>
+                                                <a href="https://open.spotify.com/user/1237954223" class="fa fa-spotify"></a>
+                                                <!-- <a href="https://github.com/wtratt/wtratt.github.io" class="fa fa-github"></a> -->
+                                                <!-- <a class="fa fa-briefcase" href="docs/Wendy_Trattner_Resume.pdf"></a> -->
+                                        </div>
+                                </div>
+                        </div>
+
+
+                        <!-- Navigation -->
+                        <nav class="stroke">
+                                <ul>
+                                        <li><a href="/" style="color:black;">HOME</a></li>
+                                        <li><a href="art">ART</a></li>
+                                        <li><a href="poetry">POETRY</a></li>
+                                        <li><a href="projects">PROJECTS</a></li>
+                                        <li><a href="docs/Wendy_Trattner_Resume.pdf">R&Eacute;SUM&Eacute;</a></li>
+                                </ul>
+                        </nav>
+
+                </div>
+
+                <!-- Right Panel -->
+                <div class="right-panel">
+                        <h2>Life Stream</h2>
+                        <!-- Home Page Content -->
+                        <div class="page">
+
+                        </div>
+                </div>
         </div>
-
-
-        <!-- Art Page Content -->
-        <div class="page">
-            <div class="row">
-                    <div class="column">
-                            <img src="pics/rocketbird.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/snow_pines.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/bluejay.jpeg">
-                    </div>
-            </div>
-            <div class="row">
-                    <div class="column">
-                            <img src="pics/misty_forest.jpeg">
-                    </div>
-                    <div class="column">
-                        <img src="pics/monarch.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/snow_guy.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/stone_harbor.jpeg">
-                    </div>
-            </div>
-            <div class="row">
-                    <div class="column">
-                            <img src="pics/rose1.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/abstract_window.jpeg" transform:rotate(90deg);">
-                    </div>
-                    <div class="column">
-                            <img src="pics/two_trees.jpeg">
-                    </div>
-            </div>
-            <div class="row">
-                    <div class="column">
-                            <img src="pics/palm_sunset.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/moon_lovers.jpeg" >
-                    </div>
-                    <div class="column">
-                            <img src="pics/water_drop_rose.jpg">
-                    </div>
-                    <div class="column">
-                        <img src="pics/blocks.jpeg">
-                    </div>
-            </div>
-            <div class="row">
-                    <div class="column">
-                            <img src="pics/robin.JPG">
-                    </div>
-                    <div class="column">
-                            <img src="pics/fall_forest.jpeg">
-                    </div>
-                    <div class="column">
-                        <img src="pics/winter_cardinal.jpg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/abstract_heart.jpg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/pine.jpg">
-                    </div>
-            </div>
-            <div class="row">
-                    <div class="column">
-                            <img src="pics/rose2.jpeg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/sunflower.jpg">
-                    </div>
-                    <div class="column">
-                        <img src="pics/catherine.jpg">
-                    </div>
-                    <div class="column">
-                            <img src="pics/zebrafish.jpg">
-                    </div>
-                    <div class="column">
-                        <img src="pics/misty_moonlight.jpg">
-                    </div>
-            </div>
-        </div>
-
-
-        <!-- Social Media -->
-        <!-- <div class="social_media">
-            <a href="https://www.facebook.com/wendytratt" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/wtratt/" class="fa fa-linkedin"></a>
-            <a href="https://www.instagram.com/wtratt/" class="fa fa-instagram"></a>
-            <a href="https://open.spotify.com/user/1237954223" class="fa fa-spotify"></a>
-            <a href="https://github.com/wtratt/wtratt.github.io" class="fa fa-github"></a>
-        </div> -->
 
 </body>
+</html>
 
