@@ -1,3 +1,21 @@
 .life-item {
-    margin: 5px;
+    margin: 50px 50px 0px 50px;
+    padding: 5px;
+    text-align: left;
+    border-radius: 10px;
+    /* background:rgb(228, 228, 228); */
+}
+
+.life-item h4 {
+    margin: 5px 0px 5px 20px;
+}
+
+.life-item p {
+    margin-left: 20px;
+    font-size: 11pt;
+}
+
+.life-item a {
+    text-decoration: none;
+    color: var(--green);
 }

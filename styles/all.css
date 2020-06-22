@@ -5,6 +5,7 @@
     --dark-grey-bg: rgb(51,51,51);
     --light-grey-text: rgb(207, 207, 207);
     --pink: rgb(137, 28, 151);
+    --green: rgb(81, 163, 112);
     --text-shadow: 3px 3px 2px rgba(31, 31, 31, 0.4);
   }
 
@@ -49,7 +50,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  background: rgb(81, 163, 112);
+  background: var(--green);
   color: rgb(243, 243, 243);
 }
 
