@@ -6,6 +6,7 @@
     --light-grey-text: rgb(207, 207, 207);
     --pink: rgb(137, 28, 151);
     --green: rgb(81, 163, 112);
+    --deep-coral: rgb(204, 91, 77);
     --text-shadow: 3px 3px 2px rgba(31, 31, 31, 0.4);
   }
 
@@ -50,7 +51,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  background: var(--green);
+  background: var(--deep-coral);
   color: rgb(243, 243, 243);
 }
 
@@ -208,6 +209,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+}
+
+.right-panel a {
+  color: var(--deep-coral)
 }
 
 .page {
