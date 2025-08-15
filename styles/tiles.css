@@ -25,6 +25,7 @@
     vertical-align: middle;
     justify-content: center;
     display: inline-block;
+    padding-bottom: 40px;
   }
 
   @media screen and (max-width: 500px) {
